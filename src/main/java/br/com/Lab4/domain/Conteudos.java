@@ -88,7 +88,7 @@ public class Conteudos {
     }
 
     public void setReview(String review) {
-        this.link = review;
+        this.review = review;
     }
 
 
