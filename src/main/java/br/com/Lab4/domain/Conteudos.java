@@ -33,6 +33,11 @@ public class Conteudos {
     @Column(nullable = false, length = 200)
     private String link;
 
+    @NotBlank
+    @Size(min = 2, max = 200)
+    @Column(nullable = false, length = 200)
+    private String review;
+
 
     @ManyToOne
     @JoinColumn(name = "id_generos_fk")
@@ -76,6 +81,14 @@ public class Conteudos {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public String getReview() {
+        return review;
+    }
+
+    public void setReview(String review) {
+        this.link = review;
     }
 
 
