@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SmartMovies</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+    <link href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Gêneros</h1>
+    </div>
+
+    <div>
+        <a class="btn btn-primary" th:href="@{/categorias/{categoriasId}/generos/cadastro(categoriasId=${categoriasId})}">
+            Cadastrar novo Gênero</a>
+    </div>
+
+    <hr/>
+    <div th:if="${generos != null}">
+        <h4>
+            Gêneros
+        </h4>
+
+        <div th:if="${mensagem != null}">
+            <div class="alert alert-info" role="alert">
+                <span th:text="${mensagem == null ? '&nbsp;' : mensagem}">mensagem</span>
+            </div>
+        </div>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+
+            </tr>
+            </thead>
+            <tr th:each="generos : ${generos}">
+                <td>
+                    <a th:type="button" class="btn btn-outline-primary" th:text="${generos.nome}" th:href="@{/generos/{id}/conteudos/listar(id=${generos.id})}">nome</a>
+                </td>
+                <td th:text="${generos.descricao}">descricao</td>
+
+                <td>
+                    <a class="btn btn-sm btn-info" th:href="@{/categorias/{categoriasId}/generos/{generosId}/atualizar(
+                      categoriasId=${categoriasId},generosId=${generos.id})}">Editar</a>
+                    <!-- <a class="btn btn-sm btn-danger" th:href="@{/categorias/{categoriasId}/generos/{generosId}/remover(
+                      categoriasId=${categoriasId},generosId=${generos.id})}">Excluir</a> -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div th:if="${#lists.isEmpty(generos)}">
+        <div class="alert alert-info" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign"></span>
+            Nenhum gênero cadastrado!
+        </div>
+    </div>
+
+    <hr/>
+    <a class="btn btn-secondary" th:href="@{/categorias/listar}">Voltar</a>
+
+    <hr/>
+    <footer class="footer">
+        <p>&copy; 2019 SmartMovie</p>
+    </footer>
+
+</div>
+</body>
+</html>

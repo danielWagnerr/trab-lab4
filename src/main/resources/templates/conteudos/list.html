@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SmartMovie</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+		.checked {
+  			color: orange;
+		}
+	</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Conteúdos</h1>
+    </div>
+
+    <div>
+        <a class="btn btn-primary" th:href="@{/generos/{generosId}/conteudos/cadastro(generosId=${generosId})}">
+            Cadastrar novo Conteúdo</a>
+    </div>
+
+    <hr/>
+    <div th:if="${conteudos != null}">
+        <h4>
+            Conteúdos
+        </h4>
+
+        <div th:if="${mensagem != null}">
+            <div class="alert alert-info" role="alert">
+                <span th:text="${mensagem == null ? '&nbsp;' : mensagem}">mensagem</span>
+            </div>
+        </div>
+
+        <table id="tableConteudos" class="table">
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sinopse</th>
+                <th>Avaliação</th>
+
+            </tr>
+            </thead>
+            <tr id="idTr" th:each="conteudos : ${conteudos}">
+                <td id="titulo" th:text="${conteudos.titulo}">titulo</td>
+                <td id="sinopse" th:text="${conteudos.sinopse}">sinopse</td>
+                <td id="avaliacao" th:text="${conteudos.avaliacao}">avaliacao</td>
+                <td>
+                    <a class="btn btn-sm btn-info" th:href="@{/generos/{generosId}/conteudos/{conteudosId}/atualizar(
+                      generosId=${generosId},conteudosId=${conteudos.id})}">Editar</a>
+                    <a class="btn btn-sm btn-danger" th:href="@{/generos/{generosId}/conteudos/{conteudosId}/remover(
+                      generosId=${generosId},conteudosId=${conteudos.id})}">Excluir</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div th:if="${#lists.isEmpty(conteudos)}">
+        <div class="alert alert-info" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign"></span>
+            Nenhum conteúdo cadastrado!
+        </div>
+    </div>
+
+    <hr/>
+    <a class="btn btn-secondary" th:href="@{/categorias/listar}">Voltar</a>
+
+    <hr/>
+    <footer class="footer">
+        <p>&copy; 2019 SmartMovie</p>
+    </footer>
+
+</div>
+<script type="text/javascript" th:src="@{/js/row-color.js}"/>
+</body>
+</html>

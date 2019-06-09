@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SmartMovie</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+    <link href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Novo gênero</h1>
+    </div>
+
+    <h4>
+        Crie um novo gênero
+    </h4>
+
+    <form th:action="@{/categorias/{categoriasId}/generos/salvar(categoriasId=${categoriasId})}"
+          th:method="${generos.id} == 0 ? post : put" th:object="${generos}">
+        <div class="row">
+            <input id="id" type="hidden" th:field="*{id}"/>
+            <div class="form-group col-md-4">
+                <label for="nome">Nome:</label>
+                <input class="form-control" id="nome" type="text" th:field="*{nome}"/>
+                <div th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></div>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="descricao">Descrição:</label>
+                <input class="form-control" id="descricao" type="text" th:field="*{descricao}"/>
+                <div th:if="${#fields.hasErrors('descricao')}" th:errors="*{descricao}"></div>
+            </div>
+
+
+
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Salvar</button>
+        </div>
+
+    </form>
+    <hr/>
+
+    <a class="btn btn-secondary" th:href="@{/categorias/{categoriasId}/generos/listar(categoriasId=${categoriasId})}">Voltar</a>
+
+    <hr/>
+    <footer class="footer">
+        <p>&copy; 2019 SmartMovie</p>
+    </footer>
+
+</div>
+</body>
+</html>

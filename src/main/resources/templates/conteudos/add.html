@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SmartMovie</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+    <link href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Novo conteúdo</h1>
+    </div>
+
+    <h4>
+        Crie um novo conteúdo
+    </h4>
+
+    <form th:action="@{/generos/{generosId}/conteudos/salvar(generosId=${generosId})}"
+          th:method="${conteudos.id} == 0 ? post : put" th:object="${conteudos}">
+        <div class="row">
+            <input id="id" type="hidden" th:field="*{id}"/>
+            <div class="form-group col-md-4">
+                <label for="titulo">Titulo:</label>
+                <input class="form-control" id="titulo" type="text" th:field="*{titulo}"/>
+                <div th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}"></div>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="sinopse">Descrição:</label>
+                <input class="form-control" id="sinopse" type="text" th:field="*{sinopse}"/>
+                <div th:if="${#fields.hasErrors('sinopse')}" th:errors="*{sinopse}"></div>
+            </div>
+
+           <div class="form-group col-md-4">
+                <label for="avaliacao">Avaliação</label>
+                <select class="custom-select" id="avaliacao" th:field="*{avaliacao}">
+                    <option value="">Selecione a avaliação</option>
+                    <option value="Péssimo">Péssimo</option>
+                    <option value="Ruim">Ruim</option>
+                    <option value="Bom">Bom</option>
+                    <option value="Muito Bom">Muito Bom</option>
+                    <option value="BlockBuster">BlockBuster!</option>
+                </select>
+                <div th:if="${#fields.hasErrors('avaliacao')}" th:errors="*{avaliacao}"></div>
+            </div>
+
+
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Salvar</button>
+        </div>
+
+    </form>
+    <hr/>
+
+    <a class="btn btn-secondary" th:href="@{/generos/{generosId}/conteudos/listar(generosId=${generosId})}">Voltar</a>
+
+    <hr/>
+    <footer class="footer">
+        <p>&copy; 2019 SmartMovie</p>
+    </footer>
+
+</div>
+</body>
+</html>
