@@ -28,6 +28,10 @@ public class Conteudos {
     @Column(nullable = false)
     private String avaliacao;
 
+    @NotBlank
+    @Size(min = 2, max = 200)
+    @Column(nullable = false, length = 200)
+    private String link;
 
 
     @ManyToOne
@@ -64,6 +68,14 @@ public class Conteudos {
 
     public void setAvaliacao(String avaliacao) {
         this.avaliacao = avaliacao;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
 
