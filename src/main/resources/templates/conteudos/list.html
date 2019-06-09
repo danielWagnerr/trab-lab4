@@ -44,6 +44,7 @@
                 <th>Nome</th>
                 <th>Sinopse</th>
                 <th>Avaliação</th>
+                <th>Trailer</th>
 
             </tr>
             </thead>
@@ -51,6 +52,7 @@
                 <td id="titulo" th:text="${conteudos.titulo}">titulo</td>
                 <td id="sinopse" th:text="${conteudos.sinopse}">sinopse</td>
                 <td id="avaliacao" th:text="${conteudos.avaliacao}">avaliacao</td>
+                <td id="link"> <a th:target="_blank" th:href="${conteudos.link}">Clique Aqui</a></td>
                 <td>
                     <a class="btn btn-sm btn-info" th:href="@{/generos/{generosId}/conteudos/{conteudosId}/atualizar(
                       generosId=${generosId},conteudosId=${conteudos.id})}">Editar</a>

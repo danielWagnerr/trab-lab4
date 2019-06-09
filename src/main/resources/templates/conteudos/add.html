@@ -35,6 +35,12 @@
                 <div th:if="${#fields.hasErrors('sinopse')}" th:errors="*{sinopse}"></div>
             </div>
 
+            <div class="form-group col-md-4">
+                <label for="link">Link:</label>
+                <input class="form-control" id="link" type="text" th:field="*{link}"/>
+                <div th:if="${#fields.hasErrors('link')}" th:errors="*{link}"></div>
+            </div>
+
            <div class="form-group col-md-4">
                 <label for="avaliacao">Avaliação</label>
                 <select class="custom-select" id="avaliacao" th:field="*{avaliacao}">
