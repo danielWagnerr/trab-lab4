@@ -14,134 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/categorias/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/domain/Conteudos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/domain/Categorias.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/dao/ConteudosDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/service/ConteudosServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/config/ConfiguracaoSpringMvc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/ConteudosController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/generos/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,15 +59,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/categorias/add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/generos/add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/generos/list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/categorias/list.html" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/CategoriasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/ConteudosController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/GenerosController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/conteudos/list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/conteudos/add.html" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/Lab4/domain/Conteudos.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/conteudos/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/hide.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/sendEmail.js" />
       </list>
     </option>
   </component>
@@ -217,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +183,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetospring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trab-lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetospring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trab-lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetospring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trab-lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,6 +242,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -355,7 +256,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -425,17 +326,18 @@
       <workItem from="1558381655548" duration="238000" />
       <workItem from="1560038108338" duration="337000" />
       <workItem from="1560041210287" duration="6123000" />
+      <workItem from="1560085829895" duration="7498000" />
+      <workItem from="1560106557045" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26413000" />
+    <option name="totallyTimeSpent" value="35734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -445,7 +347,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17041801" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3397642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,26 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1000#1006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/generos/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/service/ConteudosService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -556,13 +438,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/categorias/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -647,114 +522,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/br.com.Lab4.controller.CategoriasController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>br.com.Lab4.controller.CategoriasController</OriginalElement>
-          <nodes>
-            <node x="1077.0" y="1285.0">br.com.Lab4.domain.Categorias</node>
-            <node x="294.0" y="1142.0">br.com.Lab4.dao.ConteudosDaoImpl</node>
-            <node x="363.0" y="479.0">br.com.Lab4.service.GenerosService</node>
-            <node x="482.0" y="1340.0">br.com.Lab4.Aplicacao</node>
-            <node x="64.0" y="696.0">br.com.Lab4.service.CategoriasServiceImpl</node>
-            <node x="1093.0" y="1114.0">br.com.Lab4.domain.Conteudos</node>
-            <node x="697.0" y="956.0">br.com.Lab4.dao.GenerosDao</node>
-            <node x="418.77500000000003" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
-            <node x="439.00000000000006" y="263.0">br.com.Lab4.controller.ConteudosController</node>
-            <node x="1066.0" y="949.0">br.com.Lab4.domain.Generos</node>
-            <node x="751.95" y="77.0">org.springframework.stereotype.Controller</node>
-            <node x="36.0" y="957.0">br.com.Lab4.dao.CategoriasDao</node>
-            <node x="786.0" y="490.0">br.com.Lab4.service.ConteudosService</node>
-            <node x="693.0" y="1159.0">br.com.Lab4.dao.GenerosDaoImpl</node>
-            <node x="367.0" y="679.0">br.com.Lab4.service.GenerosServiceImpl</node>
-            <node x="38.0" y="1133.0">br.com.Lab4.dao.CategoriasDaoImpl</node>
-            <node x="0.0" y="263.0">br.com.Lab4.controller.CategoriasController</node>
-            <node x="786.0" y="677.0">br.com.Lab4.service.ConteudosServiceImpl</node>
-            <node x="64.0" y="478.0">br.com.Lab4.service.CategoriasService</node>
-            <node x="910.0" y="263.0">br.com.Lab4.controller.GenerosController</node>
-            <node x="0.0" y="1340.0">br.com.Lab4.config.ConfiguracaoSpringMvc</node>
-            <node x="295.0" y="962.0">br.com.Lab4.dao.ConteudosDao</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="br.com.Lab4.dao.ConteudosDaoImpl" target="br.com.Lab4.dao.ConteudosDao">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="68.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.CategoriasController" target="org.springframework.web.bind.annotation.RequestMapping">
-              <point x="-104.75" y="-91.0" />
-              <point x="104.75" y="233.0" />
-              <point x="450.77500000000003" y="233.0" />
-              <point x="-64.0" y="101.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.ConteudosController" target="org.springframework.stereotype.Controller">
-              <point x="112.75" y="-91.0" />
-              <point x="777.25" y="243.0" />
-              <point x="810.45" y="243.0" />
-              <point x="0.0" y="24.5" />
-            </edge>
-            <edge source="br.com.Lab4.service.CategoriasServiceImpl" target="br.com.Lab4.service.CategoriasService">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="68.5" />
-            </edge>
-            <edge source="br.com.Lab4.dao.GenerosDaoImpl" target="br.com.Lab4.dao.GenerosDao">
-              <point x="0.0" y="-91.0" />
-              <point x="0.0" y="79.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.ConteudosController" target="org.springframework.web.bind.annotation.RequestMapping">
-              <point x="-112.75" y="-91.0" />
-              <point x="551.75" y="233.0" />
-              <point x="514.7750000000001" y="233.0" />
-              <point x="0.0" y="101.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.GenerosController" target="org.springframework.stereotype.Controller">
-              <point x="109.0" y="-91.0" />
-              <point x="1237.0" y="223.0" />
-              <point x="849.45" y="223.0" />
-              <point x="39.0" y="24.5" />
-            </edge>
-            <edge source="br.com.Lab4.dao.CategoriasDaoImpl" target="br.com.Lab4.dao.CategoriasDao">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="68.5" />
-            </edge>
-            <edge source="br.com.Lab4.service.GenerosServiceImpl" target="br.com.Lab4.service.GenerosService">
-              <point x="0.0" y="-102.0" />
-              <point x="0.0" y="79.5" />
-            </edge>
-            <edge source="br.com.Lab4.service.ConteudosServiceImpl" target="br.com.Lab4.service.ConteudosService">
-              <point x="0.0" y="-91.0" />
-              <point x="0.0" y="68.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.CategoriasController" target="org.springframework.stereotype.Controller">
-              <point x="104.75" y="-91.0" />
-              <point x="314.25" y="243.0" />
-              <point x="771.45" y="243.0" />
-              <point x="-39.0" y="24.5" />
-            </edge>
-            <edge source="br.com.Lab4.controller.GenerosController" target="org.springframework.web.bind.annotation.RequestMapping">
-              <point x="-109.0" y="-91.0" />
-              <point x="1019.0" y="233.0" />
-              <point x="578.7750000000001" y="233.0" />
-              <point x="64.0" y="101.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="610.0" y="1201.0" />
-          <SelectedNodes>
-            <node>br.com.Lab4.dao.ConteudosDaoImpl</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -870,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/dao/ConteudosDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -896,54 +656,6 @@
             <element signature="e#815#816#0" expanded="true" />
             <element signature="e#881#882#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/config/ConfiguracaoSpringMvc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/ConteudosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/generos/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/categorias/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -973,13 +685,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/domain/Conteudos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/config/ConfiguracaoSpringMvc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/controller/ConteudosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/generos/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/categorias/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1972#1978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/categorias/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/Lab4/domain/Conteudos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="52" column="73" lean-forward="true" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/conteudos/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/generos/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/sweetalert2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#p#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2661#2667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/sendEmail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/br.com.Lab4.controller.CategoriasController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>br.com.Lab4.controller.CategoriasController</OriginalElement>
+          <nodes>
+            <node x="933.0" y="1493.0">br.com.Lab4.domain.Categorias</node>
+            <node x="0.0" y="1680.0">br.com.Lab4.dao.ConteudosDaoImpl</node>
+            <node x="0.0" y="1035.0">br.com.Lab4.service.GenerosService</node>
+            <node x="1676.0" y="1493.0">br.com.Lab4.Aplicacao</node>
+            <node x="672.0" y="1680.0">br.com.Lab4.service.CategoriasServiceImpl</node>
+            <node x="0.0" y="0.0">br.com.Lab4.domain.Conteudos</node>
+            <node x="393.0" y="1035.0">br.com.Lab4.dao.GenerosDao</node>
+            <node x="359.0" y="535.0">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="1217.0" y="808.0">br.com.Lab4.controller.ConteudosController</node>
+            <node x="1196.0" y="1035.0">br.com.Lab4.domain.Generos</node>
+            <node x="1033.75" y="612.0">org.springframework.stereotype.Controller</node>
+            <node x="410.0" y="1493.0">br.com.Lab4.dao.CategoriasDao</node>
+            <node x="0.0" y="863.0">br.com.Lab4.controller.EmailController</node>
+            <node x="786.0" y="1035.0">br.com.Lab4.service.ConteudosService</node>
+            <node x="393.0" y="1244.0">br.com.Lab4.dao.GenerosDaoImpl</node>
+            <node x="0.0" y="1244.0">br.com.Lab4.service.GenerosServiceImpl</node>
+            <node x="410.0" y="1680.0">br.com.Lab4.dao.CategoriasDaoImpl</node>
+            <node x="778.0" y="808.0">br.com.Lab4.controller.CategoriasController</node>
+            <node x="786.0" y="1222.0">br.com.Lab4.service.ConteudosServiceImpl</node>
+            <node x="672.0" y="1493.0">br.com.Lab4.service.CategoriasService</node>
+            <node x="322.0" y="808.0">br.com.Lab4.controller.GenerosController</node>
+            <node x="1194.0" y="1493.0">br.com.Lab4.config.ConfiguracaoSpringMvc</node>
+            <node x="0.0" y="1493.0">br.com.Lab4.dao.ConteudosDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="br.com.Lab4.dao.ConteudosDaoImpl" target="br.com.Lab4.dao.ConteudosDao">
+              <point x="0.0" y="-80.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="br.com.Lab4.service.CategoriasServiceImpl" target="br.com.Lab4.service.CategoriasService">
+              <point x="0.0" y="-80.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.EmailController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="0.0" y="-36.0" />
+              <point x="151.0" y="788.0" />
+              <point x="383.0" y="788.0" />
+              <point x="-72.0" y="101.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.ConteudosController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="-112.75" y="-91.0" />
+              <point x="1329.75" y="768.0" />
+              <point x="527.0" y="768.0" />
+              <point x="72.0" y="101.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.GenerosController" target="org.springframework.stereotype.Controller">
+              <point x="109.0" y="-91.0" />
+              <point x="649.0" y="788.0" />
+              <point x="1053.25" y="788.0" />
+              <point x="-39.0" y="24.5" />
+            </edge>
+            <edge source="br.com.Lab4.service.ConteudosServiceImpl" target="br.com.Lab4.service.ConteudosService">
+              <point x="0.0" y="-91.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.CategoriasController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="-104.75" y="-91.0" />
+              <point x="882.75" y="778.0" />
+              <point x="479.0" y="778.0" />
+              <point x="24.0" y="101.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.ConteudosController" target="org.springframework.stereotype.Controller">
+              <point x="112.75" y="-91.0" />
+              <point x="1555.25" y="758.0" />
+              <point x="1131.25" y="758.0" />
+              <point x="39.0" y="24.5" />
+            </edge>
+            <edge source="br.com.Lab4.dao.GenerosDaoImpl" target="br.com.Lab4.dao.GenerosDao">
+              <point x="0.0" y="-91.0" />
+              <point x="0.0" y="79.5" />
+            </edge>
+            <edge source="br.com.Lab4.dao.CategoriasDaoImpl" target="br.com.Lab4.dao.CategoriasDao">
+              <point x="0.0" y="-80.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="br.com.Lab4.service.GenerosServiceImpl" target="br.com.Lab4.service.GenerosService">
+              <point x="0.0" y="-102.0" />
+              <point x="0.0" y="79.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.CategoriasController" target="org.springframework.stereotype.Controller">
+              <point x="104.75" y="-91.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="br.com.Lab4.controller.GenerosController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="-109.0" y="-91.0" />
+              <point x="-24.0" y="101.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="774.0" y="733.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
