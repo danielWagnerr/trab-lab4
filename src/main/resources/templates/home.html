@@ -22,21 +22,33 @@
         <div class="row">
             <div class="col-md-3">
             </div>
-            <div class="col-md-6">
-                <h3 style="padding-left: 3em">Faça parte dessa experiência</h3>
-                <p>
+            <div class="col-md-12">
+                <h2 style="text-align: center">Faça parte dessa experiência</h2>
+                <p style="font-size: 17px; text-align: center">
                     Aqui você pode acessar todas as categorias, e escolher o gênero desejado!
                 </p>
-                <p style="padding-left: 12em">
-                    <a style="center" class="btn btn-primary btn-lg" href="/categorias/listar">Acessar</a>
+                <p style="text-align: center">
+                    <a style="text-align: center" class="btn btn-primary btn-lg" href="/categorias/listar">Acessar</a>
+                </p>
+                <hr />
+                <h2 style="text-align: center">Sobre nós</h2>
+                <p style="font-size: 15px; text-align: center" >
+                    O site SmartMovie foi desenvolvido para você, amante de séries, filmes, e afins, e que
+                    está com dificuldades se organizar! Aqui você poderá encontrar todos os seus conteúdos favoritos,
+                    que estão organizados de uma forma intuitiva e clara. E o melhor, nossa plataforma é aberta para
+                    edição a todos!! Então não se esqueça de cadastrar um conteúdo aqui depois de assisti-lo, para
+                    ajudar o próximo usuário! Tem alguma dúvida, ou sugestão? Nos mande uma mensagem!
+                </p>
+                <p style="text-align: center">
+                    <button style="text-align: center" class="btn btn-primary btn-lg" onclick="toggle_div_fun('hide');">Contate-nos</button>
                 </p>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="hide" style="display:none">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-black"></i>
-                    <h2 class="text-black mb-5">Nos mande uma mensagem!</h2>
+                    <h2 style="font-size: 21px" class="text-black mb-5">Envie sua mensagem!</h2>
                     <form id="enviarMensagem">
                         <div class="form-group">
                             <label for="nome">Nome</label>
@@ -66,6 +78,7 @@
     </div>
     <script src="/js/sendEmail.js"></script>
     <script src="/js/sweetalert2.min.js"></script>
+    <script src="/js/hide.js"></script>
 </body>
 
 </html>
